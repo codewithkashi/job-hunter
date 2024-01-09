@@ -8,6 +8,17 @@
       "expo-router"
     ],
     "name": "native-app",
-    "slug": "native-app"
+    "slug": "native-app",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "be54010a-6253-422a-93f8-d03b026dde4c"
+      }
+    },
+    "android": {
+      "package": "com.codewithkashif.nativeapp"
+    }
   }
 }
